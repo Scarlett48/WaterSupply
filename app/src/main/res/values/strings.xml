@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">H2O Purveyorz</string>
+    <string name="phone_number">+91 9677484559</string>
+    <string name="mail_id">saimahes03@gmail.com</string>
+    <string name="cost_of_gradeA">Rs. /- per litre</string>
+    <string name="cost_of_gradeB">Rs. /- per litre</string>
+    <string name="cost_of_harvest">Rs. /- per litre</string>
+</resources>

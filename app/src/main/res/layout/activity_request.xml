@@ -1,0 +1,75 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgblue"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/artifika"
+        android:text="Welcome"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:padding="20dp"
+        android:text="SELECT the type of Request"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/gradea"
+        android:onClick="gradeA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Grade A Water"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/gradeb"
+        android:onClick="gradeB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Grade B Water"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/harvest"
+        android:onClick="harvesting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="Rain Harvested Water"/>
+
+    <TextView
+        android:id="@+id/supply"
+        android:onClick="supplyWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Supply Waste Water"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
